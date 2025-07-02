@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profil | elfsylana</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="left">
+      <div class="logo">Logo</div>
+      <nav class="menu">
+        <span>produk <span class="caret">v</span></span>
+        <span>solusi <span class="caret">v</span></span>
+        <span>open <span class="caret">v</span></span>
+      </nav>
+    </div>
+    <div class="setting">setting</div>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <div class="profile-pic">Photo<br>Profil</div>
+      <div class="info">
+        <h3>elfsylana</h3>
+        <p class="aka">AJIL</p>
+        <button id="followBtn">Follow</button>
+        <p>Kaum minoritas</p>
+        <p>📍 Lokasi</p>
+        <p>💬 <a href="https://wa.me/6287818735150" target="_blank">WhatsApp</a></p>
+      </div>
+    </aside>
+
+    <main class="content">
+      <nav class="tabs">
+        <button onclick="showContent('tentang')">Tentang</button>
+        <button onclick="showContent('kontak')">Medsos</button>
+        <button onclick="showContent('projek')">Projek</button>
+        <button onclick="showContent('album')">Album</button>
+      </nav>
+      <div id="displayArea" class="display-area">
+        <p>Silakan pilih tab di atas untuk menampilkan konten.</p>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
